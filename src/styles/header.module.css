@@ -1,0 +1,34 @@
+.header {
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.header_link {
+  margin-right: 1.5rem;
+  color: black;
+}
+
+.social_item {
+  vertical-align: middle;
+}
+
+.social_item_container {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: 10px 5px;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  color: #555;
+  background: #e5e5e5;
+}
+
+.social_items_container {
+  margin-left: auto;
+}

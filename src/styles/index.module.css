@@ -1,0 +1,14 @@
+.title_and_image_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.photo {
+  width: 300;
+  height: 300;
+}
+
+.description {
+  font-size: 14px;
+}
