@@ -1,14 +1,15 @@
 .title_and_image_container {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
   flex-flow: row wrap;
 }
 
-.photo {
-  width: 300;
-  height: 300;
+.intro_container {
+  margin: auto 0px;
 }
 
-.description {
-  font-size: 14px;
+.title {
+  margin: 1rem 0;
 }

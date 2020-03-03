@@ -8,9 +8,9 @@ export default () => (
   <Container>
     <Layout pageTitle="Karthik M R">
       <div className={IndexStyles.title_and_image_container}>
-        <IndexPhoto className={IndexStyles.photo} />
-        <div>
-          <h1>
+        <IndexPhoto/>
+        <div className={IndexStyles.intro_container}>
+          <h1 className={IndexStyles.title}>
             Hey,
             <br />
             I'm Karthik

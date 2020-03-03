@@ -1,12 +1,19 @@
-
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 export default () => {
   const data = useStaticQuery(graphql`
-    query MyQuery {
-      file(relativePath: { eq: "Profile.jpg" }) {
+    query {
+      mobileImage: file(relativePath: { eq: "Profile.jpg" }) {
+        id
+        childImageSharp {
+          fixed(width: 230, height: 230) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      desktopImage: file(relativePath: { eq: "Profile.jpg" }) {
         id
         childImageSharp {
           fixed(width: 300, height: 300) {
@@ -17,11 +24,20 @@ export default () => {
     }
   `)
 
+  const sources = [
+    {
+      ...data.mobileImage.childImageSharp.fixed,
+      media: `(max-width: 600px)`,
+    },
+    {
+      ...data.desktopImage.childImageSharp.fixed,
+      media: `(min-width: 600px)`,
+    }
+  ]
+
   return (
     <div>
-      <Img
-        fixed={data.file.childImageSharp.fixed}
-      ></Img>
+      <Img fixed={sources}></Img>
     </div>
   )
 }
