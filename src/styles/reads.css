@@ -18,8 +18,12 @@
   overflow: hidden;
 }
 
-.title_bookshelf {
+.shelf_title_text {
+  margin-bottom: 12px;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 12px;
+}
+
+.description {
+  margin-bottom: 2rem;
 }
