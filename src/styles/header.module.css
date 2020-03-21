@@ -32,3 +32,13 @@
 .social_items_container {
   margin-left: auto;
 }
+
+@media (max-width: 600px) {    
+  .social_items_container {
+    margin-left: 0px;
+  }
+
+  .header_link {
+    margin-right: 0px;
+  }
+}
