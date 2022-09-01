@@ -14,288 +14,44 @@ export default () => {
         <div class="shelf_title_text">
           Currently Reading
         </div>
-        <div id="gr_grid_widget_1582989676">
-          <div class="gr_grid_container_reading">
-            <div class="gr_grid_book_container">
-              <a
-                title="A GATHERING OF FRIENDS:
-MY FAVOURITE STORIES"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/25379828-a-gathering-of-friends-my-favourite-stories"
-              >
-                <img
-                  alt="A GATHERING OF FRIENDS:
-MY FAVOURITE STORIES"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437223321l/25379828._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <noscript>
-              <br />
-              Share{" "}
-              <a rel="nofollow" href="/">
-                book reviews
-              </a>{" "}
-              and ratings with Karthik, and even join a{" "}
-              <a rel="nofollow" href="/group">
-                book club
-              </a>{" "}
-              on Goodreads.
-            </noscript>
+
+        <div id="gr_grid_widget_1662055479">
+          <div class="gr_grid_container gr_grid_container_reading">
+            <div class="gr_grid_book_container"><a title="Anxious People" rel="nofollow" href="https://www.goodreads.com/book/show/50272752-anxious-people"><img alt="Anxious People" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620425700l/50272752._SX98_.jpg" /></a></div>
           </div>
         </div>
-        <div class="shelf_title_text">Recently Read</div>
-        <div id="gr_grid_widget_1584819419">
-          <div class="gr_grid_container_read">
-            <div class="gr_grid_book_container">
-              <a
-                title="உடையார், #3 [Udayar]"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/13417656-3-udayar"
-              >
-                <img
-                  alt="உடையார், #3 [Udayar]"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326942862l/13417656.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="On the Come Up"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/35068618-on-the-come-up"
-              >
-                <img
-                  alt="On the Come Up"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518828894l/35068618._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="உடையார், #2 [Udayar]"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/13417655-2-udayar"
-              >
-                <img
-                  alt="உடையார், #2 [Udayar]"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326942665l/13417655.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="Steal Like an Artist: 10 Things Nobody Told You About Being Creative"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/13099738-steal-like-an-artist"
-              >
-                <img
-                  alt="Steal Like an Artist: 10 Things Nobody Told You About Being Creative"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404576602l/13099738._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="உடையார் #1 [Udayar]"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/6705635-1-udayar"
-              >
-                <img
-                  alt="உடையார் #1 [Udayar]"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326939959l/6705635._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="Big Little Lies"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/22864647-big-little-lies"
-              >
-                <img
-                  alt="Big Little Lies"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407166275l/22864647._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="The Art of Racing in the Rain"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/3153910-the-art-of-racing-in-the-rain"
-              >
-                <img
-                  alt="The Art of Racing in the Rain"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377206302l/3153910._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="The Murder of Roger Ackroyd (Hercule Poirot, #4)"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/16328.The_Murder_of_Roger_Ackroyd"
-              >
-                <img
-                  alt="The Murder of Roger Ackroyd"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389734015l/16328._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="The Power of Habit: Why We Do What We Do in Life and Business"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/12609433-the-power-of-habit"
-              >
-                <img
-                  alt="The Power of Habit: Why We Do What We Do in Life and Business"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545854312l/12609433._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="The Book Thief"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/893136.The_Book_Thief"
-              >
-                <img
-                  alt="The Book Thief"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499710989l/893136._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="A Gentleman in Moscow"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/45695810-a-gentleman-in-moscow"
-              >
-                <img
-                  alt="A Gentleman in Moscow"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557404158l/45695810._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="Srirangaththu Devadhaigal"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/26107596-srirangaththu-devadhaigal"
-              >
-                <img
-                  alt="Srirangaththu Devadhaigal"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575714829l/26107596._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="The Shooting Star: A Girl, Her Backpack and the World"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/41828309-the-shooting-star"
-              >
-                <img
-                  alt="The Shooting Star: A Girl, Her Backpack and the World"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536924685l/41828309._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="Becoming"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/38746485-becoming"
-              >
-                <img
-                  alt="Becoming"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528206996l/38746485._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="The Tattooist of Auschwitz"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/35523006-the-tattooist-of-auschwitz"
-              >
-                <img
-                  alt="The Tattooist of Auschwitz"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498544161l/35523006._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="கொலையுதிர் காலம் ( Kolai Uthir Kalam)"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/18713902"
-              >
-                <img
-                  alt="கொலையுதிர் காலம்"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471159963l/18713902._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="The Devotion of Suspect X (Detective Galileo, #1)"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/8686068-the-devotion-of-suspect-x"
-              >
-                <img
-                  alt="The Devotion of Suspect X"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312051518l/8686068._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <div class="gr_grid_book_container">
-              <a
-                title="The Glass Castle"
-                rel="nofollow"
-                href="https://www.goodreads.com/book/show/7445.The_Glass_Castle"
-              >
-                <img
-                  alt="The Glass Castle"
-                  border="0"
-                  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523542886l/7445._SX98_.jpg"
-                />
-              </a>
-            </div>
-            <noscript>
-              <br />
-              Share{" "}
-              <a rel="nofollow" href="/">
-                book reviews
-              </a>{" "}
-              and ratings with Karthik, and even join a{" "}
-              <a rel="nofollow" href="/group">
-                book club
-              </a>{" "}
-              on Goodreads.
-            </noscript>
+        <script src="https://www.goodreads.com/review/grid_widget/31126078.Karthik's%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=&num_books=1&order=d&shelf=currently-reading&sort=date_updated&widget_id=1662055479" type="text/javascript" charset="utf-8"></script>
+
+        <div class="shelf_title_text">
+          Recently Read
+        </div>
+        
+        <div id="gr_grid_widget_1662055321">
+          <div class="gr_grid_container gr_grid_container_read">
+            <div class="gr_grid_book_container"><a title="Death on the Nile (Hercule Poirot, #17)" rel="nofollow" href="https://www.goodreads.com/book/show/1009709.Death_on_the_Nile"><img alt="Death on the Nile" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308809477l/1009709._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="The Body in the Library (Miss Marple, #2)" rel="nofollow" href="https://www.goodreads.com/book/show/33817622-the-body-in-the-library"><img alt="The Body in the Library" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615801891l/33817622._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="Cilka's Journey (The Tattooist of Auschwitz, #2)" rel="nofollow" href="https://www.goodreads.com/book/show/50045067-cilka-s-journey"><img alt="Cilka's Journey" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575815513l/50045067._SX98_SY160_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win" rel="nofollow" href="https://www.goodreads.com/book/show/17255186-the-phoenix-project"><img alt="The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361113128l/17255186._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="Crooked House" rel="nofollow" href="https://www.goodreads.com/book/show/30399941-crooked-house"><img alt="Crooked House" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485545346l/30399941._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="The A.B.C. Murders (Hercule Poirot, #12)" rel="nofollow" href="https://www.goodreads.com/book/show/16322.The_A_B_C_Murders"><img alt="The A.B.C. Murders" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389733983l/16322._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="உடையார் - பாகம் 6 [Udaiyar - Part 6]" rel="nofollow" href="https://www.goodreads.com/book/show/13417661---6-udaiyar---part-6"><img alt="உடையார் - பாகம் 6 [Udaiyar - Part 6]" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600404606l/13417661._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="உடையார் - பாகம் 5 [Udaiyar - Part 5]" rel="nofollow" href="https://www.goodreads.com/book/show/13417664---5-udaiyar---part-5"><img alt="உடையார் - பாகம் 5 [Udaiyar - Part 5]" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600404786l/13417664._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="உடையார் - பாகம் 4 [Udaiyar - Part 4]" rel="nofollow" href="https://www.goodreads.com/book/show/13417658---4-udaiyar---part-4"><img alt="உடையார் - பாகம் 4 [Udaiyar - Part 4]" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600404499l/13417658._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="Educated" rel="nofollow" href="https://www.goodreads.com/book/show/36247169-educated"><img alt="Educated" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579796064l/36247169._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="Recursion" rel="nofollow" href="https://www.goodreads.com/book/show/43592998-recursion"><img alt="Recursion" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547660378l/43592998._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="Uncle Petros and Goldbach's Conjecture: A Novel of Mathematical Obsession" rel="nofollow" href="https://www.goodreads.com/book/show/183015.Uncle_Petros_and_Goldbach_s_Conjecture"><img alt="Uncle Petros and Goldbach's Conjecture: A Novel of Mathematical Obsession" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388215451l/183015._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="A GATHERING OF FRIENDS:
+        MY FAVOURITE STORIES" rel="nofollow" href="https://www.goodreads.com/book/show/25379828-a-gathering-of-friends-my-favourite-stories"><img alt="A GATHERING OF FRIENDS:
+        MY FAVOURITE STORIES" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437223321l/25379828._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="உடையார் - பாகம் 3 [Udaiyar - Part 3]" rel="nofollow" href="https://www.goodreads.com/book/show/13417656---3-udaiyar---part-3"><img alt="உடையார் - பாகம் 3 [Udaiyar - Part 3]" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600405371l/13417656._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="On the Come Up" rel="nofollow" href="https://www.goodreads.com/book/show/35068618-on-the-come-up"><img alt="On the Come Up" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518828894l/35068618._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="உடையார் - பாகம் 2 [Udaiyar - Part 2]" rel="nofollow" href="https://www.goodreads.com/book/show/13417655---2-udaiyar---part-2"><img alt="உடையார் - பாகம் 2 [Udaiyar - Part 2]" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600404285l/13417655._SY160_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="Steal Like an Artist: 10 Things Nobody Told You About Being Creative" rel="nofollow" href="https://www.goodreads.com/book/show/13099738-steal-like-an-artist"><img alt="Steal Like an Artist: 10 Things Nobody Told You About Being Creative" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404576602l/13099738._SX98_.jpg" /></a></div>
+            <div class="gr_grid_book_container"><a title="உடையார் - பாகம் 1 [Udaiyar - Part 1]" rel="nofollow" href="https://www.goodreads.com/book/show/6705635---1-udaiyar---part-1"><img alt="உடையார் - பாகம் 1 [Udaiyar - Part 1]" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600405059l/6705635._SX98_.jpg" /></a></div>
           </div>
         </div>
+        <script src="https://www.goodreads.com/review/grid_widget/31126078.Karthik's%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=18&order=d&shelf=read&sort=date_read&widget_id=1662055321" type="text/javascript" charset="utf-8"></script>
+
         <a
           href="https://goodreads.com/karthikmrt"
           target="_blank"
@@ -303,18 +59,7 @@ MY FAVOURITE STORIES"
         >
           More on goodreads
         </a>
-
-        <script
-          src="https://www.goodreads.com/review/grid_widget/31126078.Karthik's%20currently-reading%20book%20montage?cover_size=medium&hide_link=true&hide_title=true&num_books=1&order=d&shelf=currently-reading&sort=date_updated&widget_id=1582989676"
-          type="text/javascript"
-          charset="utf-8"
-        ></script>
-
-        <script
-          src="https://www.goodreads.com/review/grid_widget/31126078.Karthik's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=18&order=d&shelf=read&sort=date_read&widget_id=1584819419"
-          type="text/javascript"
-          charset="utf-8"
-        ></script>
+        <br/>
       </Layout>
     </Container>
   )
