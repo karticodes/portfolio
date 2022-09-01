@@ -16,7 +16,7 @@ export default () => (
             I'm Karthik
           </h1>
           <div>
-            A full-stack mobile engineer,<br />a UX enthusiast
+            Managing a full-stack engineering team,<br />at Gojek
           </div>
         </div>
       </div>
