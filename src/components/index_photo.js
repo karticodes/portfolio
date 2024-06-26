@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-export default () => {
+const IndexPhoto = () => {
   const data = useStaticQuery(graphql`
     query {
       mobileImage: file(relativePath: { eq: "Profile.jpg" }) {
@@ -41,3 +41,5 @@ export default () => {
     </div>
   )
 }
+
+export default IndexPhoto;

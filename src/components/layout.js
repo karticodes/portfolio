@@ -1,10 +1,10 @@
 import React from "react"
 import Header from "./header.js"
 import Helmet from "react-helmet"
-import containerStyles from "../styles/container.module.css"
+import { layout } from "../styles/container.module.css"
 
-export default ({ children, pageTitle }) => (
-  <div className={containerStyles.layout}>
+const Layout = ({ children, pageTitle }) => (
+  <div className={layout}>
     <Helmet>
       <meta charSet="utf-8" />
       <title>{pageTitle}</title>
@@ -16,6 +16,8 @@ export default ({ children, pageTitle }) => (
       <html lang="en" />
     </Helmet>
     <Header />
-    <div className={containerStyles.content}>{children}</div>
+    <div>{children}</div>
   </div>
 )
+
+export default Layout;
