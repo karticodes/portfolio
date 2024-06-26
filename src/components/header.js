@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import HeaderStyles from "../styles/header.module.css"
+import { header, header_link, social_item, social_item_container, social_items_container } from "../styles/header.module.css"
 import { FaLinkedinIn, FaTwitter, FaGithub, FaInstagram } from "react-icons/fa"
 
 const socialLinks = [
@@ -31,7 +31,7 @@ const linkStyle = {
 }
 
 const HeaderLink = props => (
-  <Link className={HeaderStyles.header_link} style={linkStyle} to={props.to}>
+  <Link className={header_link} style={linkStyle} to={props.to}>
     {props.children}
   </Link>
 )
@@ -40,21 +40,21 @@ const SocialLink = props => {
   const Icon = props.icon
   return (
     <a
-      className={HeaderStyles.social_item_container}
+      className={social_item_container}
       style={props.style}
       href={props.url}
       target="_blank"
       rel="noopener noreferrer"
     >
       <div title={props.placeholder}>
-        <Icon size="20px" className={HeaderStyles.social_item} />
+        <Icon size="20px" className={social_item} />
       </div>
     </a>
   )
 }
 
 const SocialLinks = props => (
-  <div className={HeaderStyles.social_items_container}>
+  <div className={social_items_container}>
     {socialLinks.map(socialLink => (
           <SocialLink
             icon={socialLink.icon}
@@ -68,7 +68,7 @@ const SocialLinks = props => (
 export default class Header extends Component {
   render() {
     return (
-      <div className={HeaderStyles.header}>
+      <div className={header}>
         <HeaderLink to="/">Home</HeaderLink>
         <HeaderLink to="/reads">My Reads</HeaderLink>
         <SocialLinks/>

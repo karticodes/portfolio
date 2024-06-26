@@ -3,7 +3,7 @@ import Container from "../components/container.js"
 import Layout from "../components/layout.js"
 import "../styles/reads.css"
 
-export default () => {
+const Reads = () => {
   const descriptionText =
     "After a long and packed workday, reading a book for atleast half an hour helps me start the next day fresh and as a better person. Cheat days are the ones when I stay the whole night to finish a book."
 
@@ -64,3 +64,5 @@ export default () => {
     </Container>
   )
 }
+
+export default Reads;
