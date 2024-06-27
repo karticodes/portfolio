@@ -45,6 +45,7 @@ const SocialLink = props => {
       href={props.url}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={props.placeholder}
     >
       <div title={props.placeholder}>
         <Icon size="20px" className={social_item} />
