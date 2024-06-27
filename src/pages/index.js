@@ -29,7 +29,7 @@ const Index = () => (
 )
 
 export function Head() {
-  return <Seo title="Karthik M R | Engineering manager"/>;
+  return <Seo title="Karthik M R | Home"/>;
 }
 
 export default Index;
