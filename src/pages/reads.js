@@ -3,6 +3,7 @@ import Container from "../components/container.js"
 import GoodreadsBookshelf from "react-goodreads-shelf"
 import Seo from "../components/seo.js"
 import "../styles/reads.css"
+import "../styles/common.css"
 
 const Reads = () => {
   const descriptionText =
@@ -12,8 +13,8 @@ const Reads = () => {
 
   return (
     <Container>
-      <div class="description">{descriptionText}</div>
-      <div class="shelf_title_text">Currently Reading</div>
+      <div class="page_generic_description">{descriptionText}</div>
+      <div class="page_section_header">Currently Reading</div>
 
       <GoodreadsBookshelf
         displayOptions={{
@@ -35,7 +36,7 @@ const Reads = () => {
         width={100}
       />
 
-      <div class="shelf_title_text">Recently Read</div>
+      <div class="page_section_header">Recently Read</div>
 
       <GoodreadsBookshelf
         displayOptions={{
@@ -70,7 +71,7 @@ const Reads = () => {
 }
 
 export function Head() {
-  return <Seo title="Karthik M R | My Reads" />
+  return <Seo title="Karthik M R | Reads" />
 }
 
 export default Reads
