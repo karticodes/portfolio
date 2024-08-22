@@ -71,7 +71,8 @@ export default class Header extends Component {
     return (
       <div className={header}>
         <HeaderLink to="/">Home</HeaderLink>
-        <HeaderLink to="/reads">My Reads</HeaderLink>
+        <HeaderLink to="/writings">Writings</HeaderLink>
+        <HeaderLink to="/reads">Reads</HeaderLink>
         <SocialLinks/>
       </div>
     )

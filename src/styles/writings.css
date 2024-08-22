@@ -1,0 +1,12 @@
+.blog_container {
+  margin: 20px 0px;
+}
+
+.blog_link {
+  color: black;
+}
+
+.blog_subtitle {
+  color: rgb(61, 61, 61);
+  font-size: 14px;
+}
